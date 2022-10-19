@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-htmlcss.github.io/1981775-sedona-35/2/">
+</head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__list">
+          <div class="header__list-left">
+            <a href="#"><img src="/images/logo.svg" alt="logo nav"></a>
+            <a href="#" class="header__list-left-text">Главная</a>
+            <a href="#" class="header__list-left-text">О седоне</a>
+            <a href="#" class="header__list-left-text">Гостиницы</a>
+          </div>
+          <div class="header__list-right">
+            <a href="#"><img src="/images/search.svg" alt="поиск"></a>
+            <a href="#"><img src="/images/like.svg" alt="лайк"></a>
+            <button class="header__list-right-button">Хочу сюда!</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="filter">
+      <div class="container">
+        <div class="filter__list">
+          <h1 class="filter__list-title">Гостиницы Седоны</h1>
+          <div class="filter__list-bread-crumbs">
+            <img src="/images/litle-home.svg" alt="home">
+            <img src="/images/jackdaw.svg" alt="галка">
+            <p class="filter__list-bread-crumbs-text">Гостиницы</p>
+          </div>
+          <div class="filter__list-form">
+            <div class="filter__list-form-item">
+              <form action="https://echo.htmlacademy.ru/courses" method="post" class="filter__list-form-item-sprukture">
+                <p class="filter__list-form-item-text">Инфраструктура:</p>
+                <input type="checkbox" name="subscribe" id="pull" checked>
+                <label for="pull">Бассейн</label><br>
+                <input type="checkbox" name="subscribe" id="parking" checked>
+                <label for="parking">Парковка</label><br>
+                <input type="checkbox" name="subscribe" id="Wi-Fi" checked>
+                <label for="Wi-Fi">Wi-Fi</label><br>
+              </form>
+            </div>
+            <div class="filter__list-form-item">
+              <form action="https://echo.htmlacademy.ru/courses" method="post" class="filter__list-form-item-sprukture">
+                <p class="filter__list-form-item-text">Тип жилья:</p>
+                <input type="radio" name="subscribe" id="hotel" checked>
+                <label for="hotel">Гостиница</label><br>
+                <input type="radio" name="subscribe" id="motel" checked>
+                <label for="motel">Мотель</label><br>
+                <input type="radio" name="subscribe" id="apart" checked>
+                <label for="apart">Апартаменты</label><br>
+              </form>
+            </div>
+            <div class="filter__list-form-item">
+              <form action="https://echo.htmlacademy.ru/courses" method="post" class="filter__list-form-item-sprukture">
+                <p class="filter__list-form-item-text">Стоимость, ₽:</p>
+                <input type="text" name="subscribe" placeholder="0" class="filter__list-form-item-input">
+                <input type="text" name="subscribe" placeholder="9000" class="filter__list-form-item-input"><br>
+                <input type="range" min="0" max="9000" step="9" value="30" />
+              </form>
+            </div>
+            <div class="filter__list-form-item-bottom">
+              <button class="filter__list-form-item-bottom-top">Применить</button>
+              <button class="filter__list-form-item-bottom-down">Сбросить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__list">
+          <div class="catalog__list-header">
+            <h2 class="catalog__list-header-title">Найдено гостиниц: 38</h2>
+            <form action="https://echo.htmlacademy.ru/courses" method="post" class="catalog__list-header-form">
+              <select name="graduation" class="catalog__list-header-form-item">
+                <option value="Сначала дешевые" class="catalog__list-header-form-text">Сначала дешевые </option>
+                <option value="Сначала дорогие">Сначала дорогие</option>
+              </select>
+            </form>
+            <div class="catalog__list-header-left">
+              <button class="catalog__list-header-left-button"><img src="/images/lattice.svg" alt="решетка"></button>
+              <button class="catalog__list-header-left-button"><img src="/images/one.svg" alt="one"></button>
+              <button class="catalog__list-header-left-button"><img src="/images/list.svg" alt="list"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+</html>
