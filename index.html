@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header class="header">
+      <div class="container">
+        <div class="header__list">
+          <div class="header__list-left">
+            <a href="#"><img src="/images/logo.svg" alt="logo nav"></a>
+            <a href="#" class="header__list-left-text">Главная</a>
+            <a href="#" class="header__list-left-text">О седоне</a>
+            <a href="#" class="header__list-left-text">Гостиницы</a>
+          </div>
+          <div class="header__list-right">
+            <a href="#"><img src="/images/search.svg" alt="поиск"></a>
+            <a href="#"><img src="/images/like.svg" alt="лайк"></a>
+            <button class="header__list-right-button">Хочу сюда!</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <img src="/images/welcome.svg" alt="основной банер">
+      <img src="/images/down-welcome.svg" alt="низ картинки">
+    </section>
+    <section class="background">
+      <div class="container">
+        <h2 class="background-title">Седона — небольшой городок в Аризоне,<br>
+          заслуживающий большего!</h2>
+        <p class="background-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="benefits__list">
+        <div class="benefits__list-item blue">
+          <h3 class="benefits__list-item-title-blue">Настоящий городок</h3>
+          <div class="benefits__list-item-trait-blue"></div>
+          <p class="benefits__list-item-text-blue">Седона — не аттракцион для<br> туристов, там течёт своя<br> жизнь</p>
+        </div>
+        <div class="benefits__list-item-picture">
+          <img src="/images/sity.jpg" alt="картинка города " class="benefits__list-item-picture-image">
+        </div>
+        <div class="benefits__list-item color1">
+          <h3 class="benefits__list-item-title ">Небольшая
+            площадь</h3>
+          <div class="benefits__list-item-trait"></div>
+          <p class="benefits__list-item-text">Все достопримечательности<br> находятся очень близко</p>
+        </div>
+        <div class="benefits__list-item color2">
+          <h3 class="benefits__list-item-title">Красивая
+            дорога</h3>
+          <div class="benefits__list-item-trait"></div>
+          <p class="benefits__list-item-text">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
+        </div>
+        <div class="benefits__list-item color1">
+          <h3 class="benefits__list-item-title">Мало
+            туристов</h3>
+          <div class="benefits__list-item-trait"></div>
+          <p class="benefits__list-item-text">Большинство едет в Гранд<br> Каньон и толпится там</p>
+        </div>
+        <div class="benefits__list-item-picture">
+          <img src="/images/canyon.jpg" alt="картинка каньена " class="benefits__list-item-picture-image">
+        </div>
+        <div class="benefits__list-item blue">
+          <h3 class="benefits__list-item-title-blue">Там есть
+            мост дьявола</h3>
+          <div class="benefits__list-item-trait-blue"></div>
+          <p class="benefits__list-item-text-blue">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        </div>
+        <div class="benefits__list-item color2">
+          <img src="/images/home.svg" alt="дом" class="benefits__list-item-img">
+          <h3 class="benefits__list-item-title-down">Жильё</h3>
+          <p class="benefits__list-item-text-down">Рекомендуем пожить<br> в настоящем мотеле,<br>
+            всё как в кино!</p>
+        </div>
+        <div class="benefits__list-item color1">
+          <img src="/images/burger.svg" alt="бургер" class="benefits__list-item-img">
+          <h3 class="benefits__list-item-title-down">Еда</h3>
+          <p class="benefits__list-item-text-down">Всегда заказывайте<br>
+            топовый фирменный бургер,<br> вы не разочаруетесь!</p>
+        </div>
+        <div class="benefits__list-item color2">
+          <img src="/images/souvenir.svg" alt="сувенир" class="benefits__list-item-img">
+          <h3 class="benefits__list-item-title-down">сувенир </h3>
+          <p class="benefits__list-item-text-down">Не только китайского,<br>
+            но и настоящего местного<br> производства!</p>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="container">
+        <div class="search__list">
+          <h2 class="search__list-title">Заинтересовались?</h2>
+          <p class="search__list-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <button class="search__list-button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe__list">
+          <h2 class="subscribe__list-title">Подпишитесь на рассылку</h2>
+          <p class="subscribe__list-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+          <form action="https://echo.htmlacademy.ru/courses" method="get" class="subscribe__list-form">
+            <input type="text" name="search" class="subscribe__list-form-name" placeholder="Ваш e-mail">
+            <input type="submit" value="Подписаться" class="subscribe__list-form-name-batton">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="footer__list">
+          <div class="footer__list-social">
+            <a href="#"><img src="/images/vk.svg" alt="vk"></a>
+            <a href="#"><img src="/images/telegram.svg" alt="telegram"></a>
+            <a href="#"><img src="/images/youtube.svg" alt="youtube"></a>
+          </div>
+          <a class="footer__list-phone" href="tel:+7(812)8121212">+7 (812) 812-12-12</a>
+          <a href="https://htmlacademy.ru/"><img src="/images/logoAcademy.svg" alt="logo htmlacademy"></a>
+        </div>
+      </div>
+    </section>
   </body>
+
 </html>

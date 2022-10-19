@@ -1,0 +1,458 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  width: 1200px;
+}
+
+.container {
+  max-width: 936px;
+  margin: 0 auto;
+}
+
+/* начало секции header */
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list-left-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__list-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 491px;
+}
+
+.header__list-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.header__list-right-button {
+  color: #ffffff;
+  width: 160px;
+  height: 36px;
+  background: #756157;
+  border-radius: 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* начало секции hero */
+.hero {
+  display: flex;
+  background-image: url(/images/index-background.jpg);
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+/* начало секции background */
+.background-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 69px 0 25px;
+}
+
+.background-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+/* начало секции benefits */
+.benefits {
+  margin-top: 90px;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.benefits__list-item-trait {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.benefits__list-item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 384px;
+}
+
+.benefits__list-item-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 103px 0 30px;
+}
+
+.benefits__list-item-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+}
+
+.blue {
+  background: #82B3D3;
+}
+
+.benefits__list-item-title-blue {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 92px 0 30px;
+  color: #FFFFFF;
+}
+
+.benefits__list-item-trait-blue {
+  width: 60px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.benefits__list-item-text-blue {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.benefits__list-item-picture-image {
+  display: block;
+}
+
+.benefits__list-item-img {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.benefits__list-item-title-down {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0 30px;
+}
+
+.benefits__list-item-text-down {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+}
+
+.color1 {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.color2 {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+/* начало секции search */
+.search__list-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 96px 0 20px;
+}
+
+.search__list-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 54px;
+
+}
+
+.search__list-button {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 8px 50px;
+  color: #FFFFFF;
+  background: #756157;
+  border-radius: 4px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 104px;
+}
+
+/* начало секции subscribe */
+.subscribe {
+  background-image: url(/images/Subscribe.png);
+  background-repeat: repeat;
+  width: 1200px;
+  height: 415px;
+}
+
+.subscribe__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe__list-form-name {
+  padding: 14px 345px 14px 20px;
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+
+
+}
+
+.subscribe__list-form-name-batton {
+  padding: 11px 50px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transform: translateX(-6px);
+}
+
+.subscribe__list-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 96px 0 20px;
+}
+
+.subscribe__list-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+  padding-bottom: 54px;
+  + 7 (812) 812-12-12 text-align: center;
+}
+
+/* начало секции footer */
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  align-items: center;
+}
+
+.footer__list-social {
+  display: flex;
+  gap: 27px;
+}
+
+.footer__list-phone {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/* начало секции filter */
+
+.filter {
+  background-image: url(/images/downpage.jpg);
+  background-repeat: repeat;
+  max-width: 1200px;
+}
+
+.filter__list-bread-crumbs {
+  display: flex;
+  gap: 11px;
+  padding-bottom: 40px;
+}
+
+.filter__list-bread-crumbs-text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.filter__list-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+  padding: 35px 0 8px;
+
+}
+
+.filter__list-form-item-text {
+  ont-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.filter__list-form-item-sprukture {
+  padding-bottom: 72px;
+  color: #FFFFFF;
+}
+
+.filter__list-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__list-form-item-input {
+  width: 143px;
+  height: 48px;
+  padding: 0;
+}
+
+.filter__list-form-item-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  transform: translateY(10px);
+}
+
+.filter__list-form-item-bottom-top {
+  padding: 8px 50px;
+  background: #82B3D3;
+  border-radius: 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+
+}
+
+.filter__list-form-item-bottom-down {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+/* начало секции catalog */
+
+.catalog__list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__list-header-title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
